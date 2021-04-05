@@ -1,0 +1,37 @@
+.container{
+    margin:70px 150px 70px 150px;
+    background: linear-gradient(rgb(67, 179, 223), yellow);
+      border: 5px dotted  khaki;
+      border-radius: 10px;
+  }
+  .lead{
+      background-color: lightseagreen;
+      padding: 5px 300px;
+   }
+  body{
+      background-repeat: no-repeat;
+      background-position: 400px 0px;
+    background-image: url('https://lillythehtcat.files.wordpress.com/2016/10/conga-line-fun-happy-minions-party-gif.gif?w=400');
+    margin: 30px 70px;
+  }
+  #lol{
+      background-color: greenyellow;
+  }
+  #button{
+    background-color:rgb(177, 109, 36);
+    padding:20px;
+    margin-left: 165px;
+    margin-top: 50px;
+    margin-right: 170px;
+    border: 4px dotted firebrick;
+    border-radius: 10px;
+  }
+  #id{
+    background-color: darkslategrey;
+  }
+  .heading{
+    background-image: linear-gradient(45deg ,#F2AA4CFF,black);
+    text-align: center;
+    color: bisque;
+    border:5px outset indianred;
+  }
