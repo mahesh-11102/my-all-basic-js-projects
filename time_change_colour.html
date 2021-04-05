@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>js project1 by mahesh</title>
+    <style>
+        .container{
+          margin:70px 150px 70px 150px;
+           background-color: brown;
+            border: 5px dotted  khaki;
+            border-radius: 10px;
+        }
+        .lead{
+            background-color: lightseagreen;
+            margin-left: 50px;
+            margin-right: 500px;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            
+        }
+        body{
+            background-color: rgba(0, 0, 0, 0.857);
+        }
+        #lol{
+            background-color: greenyellow;
+        }
+        #button{
+          background-color:rgb(177, 109, 36);
+          padding:20px;
+          margin-left: 165px;
+          margin-top: 50px;
+          margin-right: 170px;
+          border: 4px dotted firebrick;
+          border-radius: 10px;
+        }
+        #id{
+          background-color: darkslategrey;
+        }
+        .heading{
+          text-align: center;
+          background-color: honeydew;
+          border:5px outset indianred;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1> This is my first Javascript project</h1>
+    </div>
+      <div class="container">
+         <div class="jumbotron">
+             <h2 class="display-4"> The curent Time on your system is: <span id="time"></span></h2>
+             <hr class="my-4">
+             <p class=" lead" id="wow">The date on your System is  :<span id="date2"></span></p>
+             <hr class="my-4">
+           <p><marquee> this is a my first basic js project</marquee></p>
+            <!--a class="btn btn-primary btn-lg" href="#" role="button"> click here mc to know more</a-->
+            </div>
+      </div>
+
+      <div id="button">
+        <p>to change the colour of the background click the button below</p>
+        <button id="lol" > click here </button>
+      </div>
+      
+    <script>
+        window.setInterval(()=>{
+        a=new Date();
+        let date= a.toLocaleDateString();//this will give you in date format
+        let time= a.getHours()+" : "+a.getMinutes()+" : "+ a.getSeconds();
+        document.getElementById('time').innerHTML= time ;
+        document.getElementById('date2').innerHTML =  date ;
+    },1000);
+
+      </script>
+    
+  <script>    
+const button = document.querySelector("button")
+const colors = ['orange', 'lightgreen', 'skyblue', 'yellow', 'pink', 'seablue']
+
+button.addEventListener('click', changed)
+
+function changed(){
+  console.log("changing....");
+const colorIndex= parseInt(Math.random()*colors.length+1)
+document.getElementById('button').style.backgroundColor = colors[colorIndex];
+document.getElementById('lol').style.backgroundColor = colors[colorIndex + 1];
+document.getElementById('wow').style.backgroundColor = colors[colorIndex-1];
+}
+    </script>
+  </body>
+</html>
+</body>
+</html>
