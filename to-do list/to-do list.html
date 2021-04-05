@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="to-do list.css">
+    <title>TO-DO list</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="head" id="head"> TO-DOS List</h2>
+        <form>
+            <div class="form-group">
+                <label for="title \t"><b>Title</b></label>
+                <br>
+                <input type="text" id="title" >
+            
+            </div>
+               <div class="form-group">
+                <label for="description" ><b>Description</b></label>
+                <br> 
+                <textarea id="description" rows="4" cols="66"></textarea>
+                <br>
+            </div>
+            <button type="submit" id="add" class="btn"> click here to add in the list</button>
+        </form>
+        <div class="item" id="items">
+            <h2> <b>Your lists </b></h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th class="tab" scope="col">Sr NO.</th>
+                    <th class="tab" scope="col">title of the list</th>
+                    <th class="tab" scope="col">description of the list</th>
+                    </tr>
+                </thead>
+                <tbody id="tabod">
+                    <tr>
+                        <th scope="rows">1.</th>
+                        <td>brush your teeth</td>
+                        <td>brushing is good for you health </td>
+                        <td><button class="delete btn">delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+         
+    </div>
+
+    <script src="to-do list.js"></script>
+</body>
+
+</html>

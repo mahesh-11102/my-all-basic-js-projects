@@ -1,0 +1,46 @@
+body{
+    align-items: center;
+    display: auto;
+    background-image: radial-gradient(gray,black);
+}
+.btn{
+    background-color: mediumspringgreen;
+    border:4px ridge rgb(207, 17, 80);
+    border-radius: 6px;
+    margin: 10px 150px ;
+    padding: 5px;
+}
+.form-group{
+    background-color: navajowhite;
+    padding: 10px;
+    border:6px groove brown;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 150px;
+}
+.head{
+    background-color: chartreuse;
+    border:6px ridge wheat;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin: 30px 150px;
+    text-align: center;
+}
+.tab{
+    padding :0 70px;
+}
+.item{
+    text-align: center;
+    margin: 10px 100px;
+    background-color: lightgoldenrodyellow;
+    padding:9px;
+    border-radius: 9px;
+    border:6px ridge lightcoral ;
+  
+}
+.delete{
+    background-color:lightskyblue;
+    border: 3px ridge brown;
+    width: 50px;
+    height: 30px;
+}
