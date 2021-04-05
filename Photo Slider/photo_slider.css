@@ -1,0 +1,55 @@
+.my_slides{
+    display: none;
+}
+img{
+    width:500px;
+    height:500px;
+    border-radius: 10px;
+    overflow:hidden;
+}
+body{
+background-color: rgb(0, 0, 0);
+overflow: auto;
+align-items: center;
+}
+.container{
+background-image: linear-gradient(to bottom right, red, yellow);
+position: fixed;
+text-align: center;
+margin: 3vh 50vh;
+padding: 2vh 3vh;
+display: box-sizing;
+width: 600px;
+height: 600px;
+border-radius: 8px;
+}
+
+#prev{
+position: absolute;
+top:45%;
+left:0;
+color:darkred;
+padding: 15px;
+cursor: pointer;
+background: transparent;
+font-weight: bold;
+font-size: 25px;
+transition:2s;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+#next{
+position: absolute;
+top:45%; 
+right:0;
+color:darkred;
+padding: 15px;
+cursor: pointer;
+background: transparent;
+font-weight: bold;
+font-size: 25px;
+transition:2s;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
