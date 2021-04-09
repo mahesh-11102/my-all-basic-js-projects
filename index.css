@@ -5,10 +5,9 @@
 }
 
 body{
-    background-color:rebeccapurple ;
+    background-image:radial-gradient(darkred,black) ;
     background-repeat: no-repeat;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
 }
 
 .container{
@@ -31,7 +30,7 @@ body{
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in-out;
+    transition: 0.7s ease-in-out;
 
 }
 .container .card:hover {
@@ -75,4 +74,20 @@ h2{
     visibility: visible;
     opacity: 1;
     transition-delay: 0.3s;
+}
+p{
+    box-shadow: 3px 5px 6px gray;
+    font: 1em sans-serif;
+}
+
+#to-do:hover{
+    height: 450px;
+}
+h1{
+    text-align: center;
+    color:azure; 
+    background-image: linear-gradient(180deg,black, darkred);
+    font-size: 48px;
+    font-family: cursive;
+    font-style: oblique;
 }
